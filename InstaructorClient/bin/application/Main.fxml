@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="765.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <AnchorPane fx:id="AP" prefHeight="400.0" prefWidth="765.0">
+         <children>
+            <TextField fx:id="ipTxt" layoutX="259.0" layoutY="34.0" />
+            <TextField fx:id="cmdPortTxt" layoutX="481.0" layoutY="34.0" prefHeight="25.0" prefWidth="59.0" />
+            <TextField fx:id="filePortTxt" layoutX="602.0" layoutY="34.0" prefHeight="25.0" prefWidth="59.0" />
+            <Button fx:id="connectBtn" layoutX="697.0" layoutY="34.0" mnemonicParsing="false" onAction="#connect" text="Connect" />
+            <Label layoutX="233.0" layoutY="38.0" text="IP:" />
+            <Label layoutX="422.0" layoutY="38.0" text="CMD Port:" />
+            <Label layoutX="550.0" layoutY="38.0" text="File port:" />
+            <ListView fx:id="chatSpace" layoutX="499.0" layoutY="115.0" prefHeight="200.0" prefWidth="246.0" />
+            <Label layoutX="592.0" layoutY="91.0" text="Chat Space" />
+            <TextField fx:id="msgFieldTxt" layoutX="513.0" layoutY="325.0" prefHeight="25.0" prefWidth="218.0" />
+            <Button fx:id="helpBtn" layoutX="556.0" layoutY="355.0" mnemonicParsing="false" onAction="#sendHelp" text="Help" />
+            <Button fx:id="msgBtn" layoutX="650.0" layoutY="355.0" mnemonicParsing="false" onAction="#sendMsg" text="MSG" />
+            <Label layoutX="448.0" layoutY="359.0" text="Send as:" />
+            <Label layoutX="41.0" layoutY="183.0" text="Recieve Directory:" />
+            <TextField fx:id="reciveDirectoryTxt" layoutX="164.0" layoutY="179.0" prefHeight="25.0" prefWidth="174.0" />
+            <Button fx:id="selectDirectoryBtn" layoutX="362.0" layoutY="179.0" mnemonicParsing="false" onAction="#selectDirectory" text="Select Directory" />
+            <Button fx:id="notifyTastFinishedBtn" layoutX="192.0" layoutY="303.0" mnemonicParsing="false" onAction="#notifyTaskFinished" text="Notify task finished" />
+            <TextField fx:id="usernameTxt" layoutX="69.0" layoutY="34.0" />
+            <Label layoutX="6.0" layoutY="38.0" text="Username:" />
+            <Label layoutX="306.0" layoutY="6.0" text="Client Status:" />
+            <Label fx:id="clientStatusLbl" layoutX="388.0" layoutY="6.0" text="disconnected" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
