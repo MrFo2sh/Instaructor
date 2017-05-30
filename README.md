@@ -9,7 +9,7 @@ Master-Slave Application for Instructors or Lab Administrators to manage and con
 <p>Also giving the ability to the instructor to chat, notify students</p>
 <p>Also providing the instructor with commands area thats supports saving CMD or bash or shell commands at a list that he can select</p>
 <p>to be executed over the selected computers that he/she wants to execute at or simply execute a command he/she can type</p>
-<p>Also the ability to view student screen and control it with Mouse and Keyboard.</p>
+<p>Also the ability to view student's screen and control it with Mouse and Keyboard.</p>
 <p>For the screen mirroring I used an existing application for screen sharing and keybord and mouse control you can find it
 <a href="https://github.com/rajpushkar/Remote-Desktop-Control">here</a> I modified it to be part of my application</p>
 <p>I am also using a cool library for Notifications <a href='https://github.com/PlusHaze/TrayNotification'>Tray Notification</a></p>
@@ -32,6 +32,7 @@ Master-Slave Application for Instructors or Lab Administrators to manage and con
 <br>
 <br>
 <p>Command Execution:</p>
+After sending this application "application.exe" where executed over each student's pc to run the application
 <img src="https://github.com/MrFo2sh/Instaructor/blob/master/InstaructorCommandExecution.png">
 <br>
 <br>
